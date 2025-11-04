@@ -47,4 +47,5 @@ Uni-Pal: 🏆 Prizes: Certified participation certificates, financial prizes, gi
 3. **Configure your bot**
 
  Get your Telegram Bot Token from @BotFather
+ 
  Replace YOUR_BOT_TOKEN in bot_simple.py
