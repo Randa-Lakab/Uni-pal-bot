@@ -1,0 +1,121 @@
+{
+  "name": "My workflow 4",
+  "nodes": [
+    {
+      "parameters": {
+        "updates": [
+          "message"
+        ],
+        "additionalFields": {}
+      },
+      "type": "n8n-nodes-base.telegramTrigger",
+      "typeVersion": 1.2,
+      "position": [
+        -592,
+        -144
+      ],
+      "id": "e2b4aa4e-3499-4a2a-8226-28009cff3f6e",
+      "name": "Telegram Trigger",
+      "webhookId": "54efb3dc-40f9-42b7-8aa8-f92e1e39da16",
+      "credentials": {
+        "telegramApi": {
+          "id": "sHXecuEkRjA5bk9J",
+          "name": "Telegram account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "modelId": {
+          "__rl": true,
+          "value": "gpt-3.5-turbo",
+          "mode": "id"
+        },
+        "messages": {
+          "values": [
+            {
+              "content": "You are \"Uni-Pal\", a helpful and friendly Telegram assistant for participants of the Uni Agents 2025 hackathon. Your goal is to answer their questions based strictly on the provided context.\n\nIMPORTANT HACKATHON INFORMATION:\n- Theme: Artificial Intelligence for university students or universities\n- Final submission deadline: October 28, 2025\n- What to submit: 2-4 minute demo video + complete code (GitHub link)\n- Projects without a working prototype will be excluded from evaluation\n- Allowed tools: Any programming language, n8n, OpenAI, Gemini, Hugging Face\n- Prizes: Certified participation certificates, financial prizes, gifts for winning teams, special recognition for best project idea\n- Project ownership: The idea belongs to the participating team, the hackathon does not claim project rights\n- Workshop dates: Wednesday October 22, from 7-9 PM\n- Workshop location: The University of Jordan - University Street (Uruk)\n- Any project level is acceptable - simple or advanced - what matters is that the idea is useful and well-implemented\n\nRULES:\n1. Answer questions clearly and concisely using ONLY the information above\n2. If the answer is not in the information, politely say: \"I'm sorry, I don't have that information right now. Please check the official hackathon WhatsApp groups or documents.\"\n3. Always be friendly, encouraging and wish them good luck!\n4. Keep your answers short and helpful",
+              "role": "system"
+            },
+            {
+              "content": "={{ $json.message.text }}"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "type": "@n8n/n8n-nodes-langchain.openAi",
+      "typeVersion": 1.8,
+      "position": [
+        -352,
+        -144
+      ],
+      "id": "3b6e6989-79d9-4439-8e67-fa8f00cc5b24",
+      "name": "Message a model",
+      "credentials": {
+        "openAiApi": {
+          "id": "uSrJbli1M8SK34VO",
+          "name": "OpenAi account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "chatId": "={{ $json.message.chat.id }}",
+        "text": "={{ $json.choices[0].message.content }}",
+        "additionalFields": {}
+      },
+      "type": "n8n-nodes-base.telegram",
+      "typeVersion": 1.2,
+      "position": [
+        -16,
+        -144
+      ],
+      "id": "2eeaf1a9-223b-4fa6-8cd0-8dd03b764423",
+      "name": "Send a text message",
+      "webhookId": "b818c64d-bbfc-4d15-b607-341e4c698134",
+      "credentials": {
+        "telegramApi": {
+          "id": "sHXecuEkRjA5bk9J",
+          "name": "Telegram account"
+        }
+      }
+    }
+  ],
+  "pinData": {},
+  "connections": {
+    "Telegram Trigger": {
+      "main": [
+        [
+          {
+            "node": "Message a model",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Message a model": {
+      "main": [
+        [
+          {
+            "node": "Send a text message",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "active": true,
+  "settings": {
+    "executionOrder": "v1"
+  },
+  "versionId": "6a62f0bf-a425-4a63-a61c-4a8713708b31",
+  "meta": {
+    "templateCredsSetupCompleted": true,
+    "instanceId": "7179d4801dc86d8b181ffca50783c9ee3df4c866c96d275543d71b8ce7d4ca4b"
+  },
+  "id": "rQmbJPPoEiWWliti",
+  "tags": []
+}

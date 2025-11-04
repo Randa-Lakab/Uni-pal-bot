@@ -1,0 +1,12 @@
+UNI AGENTS 2025 HACKATHON INFORMATION:
+
+- Theme: Artificial Intelligence for university students or universities
+- Final submission deadline: October 28, 2025
+- What to submit: 2-4 minute demo video + complete code (GitHub link)
+- Projects without a working prototype will be excluded from evaluation
+- Allowed tools: Any programming language, n8n, OpenAI, Gemini, Hugging Face
+- Prizes: Certified participation certificates, financial prizes, gifts for winning teams, special recognition for best project idea
+- Project ownership: The idea belongs to the participating team, the hackathon does not claim project rights
+- Workshop dates: Wednesday October 22, from 7-9 PM
+- Workshop location: The University of Jordan - University Street (Uruk)
+- Any project level is acceptable - simple or advanced - what matters is that the idea is useful and well-implemented
