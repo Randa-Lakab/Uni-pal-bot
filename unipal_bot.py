@@ -3,8 +3,8 @@ from telegram.ext import Application, MessageHandler, filters
 from openai import OpenAI
 
 # Remplace avec TES clés API
-TELEGRAM_TOKEN = "8396315351:AAHLRQtIHItHJx434NTsDKh1TubGxSxiXog"  
-OPENAI_API_KEY = "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"   # 👈 Remplace par ta clé OpenAI
+TELEGRAM_TOKEN = "*******"    #  Remplace par ta clé Telegram
+OPENAI_API_KEY = "********"   #  Remplace par ta clé OpenAI
 
 # Configure OpenAI
 client = OpenAI(api_key=OPENAI_API_KEY)
@@ -64,4 +64,5 @@ def main():
     application.run_polling()
 
 if __name__ == "__main__":
+
     main()
