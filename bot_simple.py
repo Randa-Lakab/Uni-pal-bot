@@ -1,6 +1,6 @@
 from telegram.ext import Application, MessageHandler, filters
 
-TELEGRAM_TOKEN = "8396315351:AAHLRQtIHItHJx434NTsDKh1TubGxSxiXog"  # 
+TELEGRAM_TOKEN = "********"  # Your API Key here
 
 # Réponses pré-définies en anglais
 RESPONSES = {
@@ -45,4 +45,5 @@ def main():
     application.run_polling()
 
 if __name__ == "__main__":
+
     main()
