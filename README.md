@@ -14,7 +14,7 @@ Uni-Pal is an intelligent Telegram bot designed to assist participants of the **
 - **Hackathon-Focused** - Specifically trained on Uni Agents 2025 information
 - **User-Friendly** - Simple Telegram interface everyone knows how to use
 
-##  Example Interactions
+###  Example Interactions
 
 User: What is the submission deadline?
 Uni-Pal: 📅 Submission deadline: October 28, 2025
