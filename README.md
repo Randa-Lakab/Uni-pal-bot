@@ -26,7 +26,7 @@ User: What prizes can we win?
 Uni-Pal: 🏆 Prizes: Certified participation certificates, financial prizes, gifts for winning teams, special recognition for best project idea
 
 
-##  Installation & Setup
+###  Installation & Setup
 
 ### Prerequisites
 - Python 3.8 or higher
