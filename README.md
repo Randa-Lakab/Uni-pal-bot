@@ -25,7 +25,7 @@ Uni-Pal: 🏫 Workshop: Wednesday October 22, 7-9 PM at University of Jordan (Ur
 
 User: What prizes can we win?
 
-Uni-Pal: 🏆 Prizes: Certified participation certificates, financial prizes, gifts for winning teams, special recognition for best project idea
+Uni-Pal: 🏆 Prizes: Certified participation certificates, financial prizes, gifts for winning teams, special recognition for best project idea.
 
 
 ###  Installation & Setup
