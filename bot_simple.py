@@ -17,7 +17,6 @@ RESPONSES = {
 async def handle_message(update, context):
     user_message = update.message.text.lower()
     print(f" Message: {user_message}")
-    
     # Trouve la réponse
     if "deadline" in user_message:
         reply = RESPONSES["deadline"]
@@ -47,3 +46,4 @@ def main():
 if __name__ == "__main__":
 
     main()
+
