@@ -5,7 +5,6 @@
 [![Hackathon](https://img.shields.io/badge/Hackathon-Uni%20Agents%202025-green.svg)]()
 
 Uni-Pal is an intelligent Telegram bot designed to assist participants of the **Uni Agents 2025 Hackathon**. It provides instant answers to frequently asked questions, helping students focus on building their projects instead of searching for information.
-
 ###  Features
 
 - **Instant Q&A** - Get immediate answers to hackathon-related questions
