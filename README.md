@@ -11,7 +11,7 @@ Uni-Pal is an intelligent Telegram bot designed to assist participants of the **
 - **Instant Q&A** - Get immediate answers to hackathon-related questions.
 - **24/7 Availability** - Always active, even during late-night coding sessions.
 - **Multi-language Support** - Understands and responds in multiple languages.
-- **Hackathon-Focused** - Specifically trained on Uni Agents 2025 information
+- **Hackathon-Focused** - Specifically trained on Uni Agents 2025 information.
 - **User-Friendly** - Simple Telegram interface everyone knows how to use
 ###  Example Interactions
 
