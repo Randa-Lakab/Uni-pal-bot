@@ -21,7 +21,7 @@ Uni-Pal: 📅 Submission deadline: October 28, 2025
 
 User: Where is the workshop?
 
-Uni-Pal: 🏫 Workshop: Wednesday October 22, 7-9 PM at University of Jordan (Uruk)
+Uni-Pal: 🏫 Workshop: Wednesday October 22, 7-9 PM at University of Jordan (Uruk).
 
 User: What prizes can we win?
 
