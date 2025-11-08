@@ -18,7 +18,7 @@ async def handle_message(update, context):
     user_message = update.message.text.lower()
     print(f" Message: {user_message}")
     
-    # Trouve la 
+    # Trouve l
     if "deadline" in user_message:
         reply = RESPONSES["deadline"]
     elif "workshop" in user_message:
