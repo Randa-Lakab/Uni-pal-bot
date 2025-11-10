@@ -2,7 +2,7 @@ from telegram.ext import Application, MessageHandler, filters
 
 TELEGRAM_TOKEN = "********"  # Your API Key here
 
-# Réponses pré-définies en anglais
+# Réponses pré-définies en 
 RESPONSES = {
     "hello": "👋 Hello! I'm Uni-Pal, your hackathon assistant!",
     "hi": "👋 Hi! How can I help you with the hackathon?",
