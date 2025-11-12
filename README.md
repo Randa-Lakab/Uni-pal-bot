@@ -17,7 +17,7 @@ Uni-Pal is an intelligent Telegram bot designed to assist participants of the **
 ###  Example Interactions
 
 User: What is the submission deadline?
-Uni-Pal: 📅 Submission deadline: October 28, 2025
+Uni-Pal: 📅 Submission deadline: October 28, 2025.
 
 User: Where is the workshop?
 
