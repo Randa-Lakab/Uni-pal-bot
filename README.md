@@ -59,4 +59,4 @@ Uni-Pal: 🏆 Prizes: Certified participation certificates, financial prizes, gi
 
    • Team Coordination - Shared knowledge base for entire team
 
-   • Time Saving - Focus on coding, not searching
+   • Time Saving - Focus on coding, not searching.
