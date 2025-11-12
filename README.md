@@ -57,6 +57,6 @@ Uni-Pal: 🏆 Prizes: Certified participation certificates, financial prizes, gi
 
    • Stress Reduction - Instant answers during last-minute panic
 
-   • Team Coordination - Shared knowledge base for entire team
+   • Team Coordination - Shared knowledge base for entire team.
 
    • Time Saving - Focus on coding, not searching.
