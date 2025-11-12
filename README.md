@@ -53,7 +53,7 @@ Uni-Pal: 🏆 Prizes: Certified participation certificates, financial prizes, gi
     • Replace YOUR_BOT_TOKEN in bot_simple.py
 
 4. **Use Cases**
-   • Quick Information Access - No more digging through PDFs and chat groups
+   • Quick Information Access - No more digging through PDFs and chat groups.
 
    • Stress Reduction - Instant answers during last-minute panic.
 
