@@ -55,7 +55,7 @@ Uni-Pal: 🏆 Prizes: Certified participation certificates, financial prizes, gi
 4. **Use Cases**
    • Quick Information Access - No more digging through PDFs and chat groups
 
-   • Stress Reduction - Instant answers during last-minute panic
+   • Stress Reduction - Instant answers during last-minute panic.
 
    • Team Coordination - Shared knowledge base for entire team.
 
