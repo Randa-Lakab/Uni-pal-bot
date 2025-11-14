@@ -1,6 +1,6 @@
 from telegram.ext import Application, MessageHandler, filters
 
-TELEGRAM_TOKEN = "********"  # Your API Key here
+TELEGRAM_TOKEN = "*********"  # Your API Key here
 
 #Predefined answers in English
 RESPONSES = {
