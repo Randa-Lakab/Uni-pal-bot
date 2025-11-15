@@ -1,4 +1,4 @@
-#### Uni-Pal - AI-Powered Hackathon Assistant 
+##### Uni-Pal - AI-Powered Hackathon Assistant 
 
 [![Telegram](https://img.shields.io/badge/Telegram-Bot-blue.svg)](https://telegram.org/)
 [![Python](https://img.shields.io/badge/Python-3.8%2B-yellow.svg)](https://python.org)
